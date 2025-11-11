@@ -1,6 +1,6 @@
 # pas_mobile_11pplg1_01
 
-A new Flutter project.
+PAS Mobile Development
 
 ## Getting Started
 
