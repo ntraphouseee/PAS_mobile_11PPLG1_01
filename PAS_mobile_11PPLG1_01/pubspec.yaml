@@ -1,0 +1,52 @@
+name: pas_mobile_11pplg1_01
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # GetX State Management & Navigation
+  get: ^4.6.6
+
+  # HTTP Client untuk API
+  http: ^1.1.0
+  dio: ^5.3.3
+
+  # Local Database
+  sqflite: ^2.3.0
+  path: ^1.8.3
+
+  # Shared Preferences
+  shared_preferences: ^2.2.2
+
+  # JSON Serialization
+  json_annotation: ^4.8.1
+
+  # Loading Animation
+  flutter_easyloading: ^3.0.5
+
+  # Image Caching & Loading
+  cached_network_image: ^3.3.0
+
+  # The following adds the Cupertino Icons font to your application.
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # JSON Serialization Generator
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
+
+  # Linting
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
